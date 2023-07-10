@@ -102,6 +102,10 @@ nav a {
 }
 
 /*Main section styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*About section styles*/
 .section-title{
     color: #181818;
@@ -118,4 +122,11 @@ nav a {
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    text-align: center;
 }
