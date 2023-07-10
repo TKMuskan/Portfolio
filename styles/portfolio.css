@@ -70,7 +70,7 @@ nav a {
 /*Header Related Style*/
 .header {
     background-color: #141414;
-    
+    background-image: url();
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
@@ -179,6 +179,10 @@ main section {
     height: 32px;
     width: 32px;
 }
+.contact-icon{
+    height: 18px;
+    width: 18px;
+}
 .social-links a{
     margin-right: 25px;
 }
@@ -191,7 +195,7 @@ main section {
 }
 
 .skill-description {
-    color: var(--dark-03, #7c7c7c);
+    color: #7c7c7c;
 }
 
 /*Resume section styles*/
